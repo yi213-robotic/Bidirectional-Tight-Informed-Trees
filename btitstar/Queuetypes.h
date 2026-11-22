@@ -52,11 +52,7 @@ namespace ompl
         namespace btitstar
         {
             // Forward declarations of the BTIT* edge and vertex classes.
-            class Edge;
             class Vertex;
-
-            /** \brief The type of the edge queue. */
-            using EdgeQueue = ompl::BinaryHeap<Edge, std::function<bool(const Edge &, const Edge &)>>;
 
             /** \brief A type for elements in the vertex queue. */
             using KeyVertexPair = std::pair<std::array<ompl::base::Cost, 2u>, std::shared_ptr<Vertex>>;
@@ -69,8 +65,8 @@ namespace ompl
             using VertexQueue =
                 ompl::BinaryHeap<KeyVertexPair, std::function<bool(const KeyVertexPair &, const KeyVertexPair &)>>;
 
-        }  // namespace aitstar
+        }  // namespace btitstar
     }      // namespace geometric
 }  // namespace ompl
 
-#endif  // OMPL_GEOMETRIC_PLANNERS_INFORMEDTREES_AITSTAR_QUEUETYPES_
+#endif  // OMPL_GEOMETRIC_PLANNERS_INFORMEDTREES_BTITSTAR_QUEUETYPES_
