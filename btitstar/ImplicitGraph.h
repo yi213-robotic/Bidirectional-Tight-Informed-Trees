@@ -247,7 +247,7 @@ namespace ompl
                 mutable std::size_t numNearestNeighborsCalls_{0u};
             };
 
-        }  // namespace aitstar
+        }  // namespace btitstar
 
     }  // namespace geometric
 
