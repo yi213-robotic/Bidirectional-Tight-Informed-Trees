@@ -46,8 +46,6 @@
 #include "ompl/base/SpaceInformation.h"
 #include "ompl/base/State.h"
 #include "ompl/datastructures/BinaryHeap.h"
-
-#include "ompl/geometric/planners/lazyinformedtrees/btitstar/Edge.h"
 #include "ompl/geometric/planners/lazyinformedtrees/btitstar/Queuetypes.h"
 
 namespace ompl
