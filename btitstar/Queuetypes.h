@@ -1,7 +1,7 @@
 /*********************************************************************
  * Software License Agreement (BSD License)
  *
- *  Copyright (c) 2019, University of California, Irvine
+ *  Copyright (c) 2026, University of California, Irvine
  *  All rights reserved.
  *
  *  Redistribution and use in source and binary forms, with or without
