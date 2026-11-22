@@ -34,8 +34,8 @@
 
 // Authors: Yi Wang
 
-#ifndef OMPL_GEOMETRIC_PLANNERS_INFORMEDTREES_AITSTAR_VERTEX_
-#define OMPL_GEOMETRIC_PLANNERS_INFORMEDTREES_AITSTAR_VERTEX_
+#ifndef OMPL_GEOMETRIC_PLANNERS_INFORMEDTREES_BTITSTAR_VERTEX_
+#define OMPL_GEOMETRIC_PLANNERS_INFORMEDTREES_BTITSTAR_VERTEX_
 
 #include <memory>
 #include <vector>
@@ -342,7 +342,7 @@ namespace ompl
                 
             };
 
-        }  // namespace aitstar
+        }  // namespace btitstar
 
     }  // namespace geometric
 
