@@ -1,7 +1,7 @@
 /*********************************************************************
  * Software License Agreement (BSD License)
  *
- *  Copyright (c) 2026, University of New Hampshire
+ *  Copyright (c) 2026, University of California, Irvine
  *  All rights reserved.
  *
  *  Redistribution and use in source and binary forms, with or without
@@ -64,10 +64,10 @@ namespace ompl
         class BTITstar : public ompl::base::Planner
         {
         public:
-            /** \brief Constructs a BiIT*. */
+            /** \brief Constructs a BTIT*. */
             explicit BTITstar(const ompl::base::SpaceInformationPtr &spaceInformation);
 
-            /** \brief Destructs a BiIT*. */
+            /** \brief Destructs a BTIT*. */
             ~BTITstar() = default;
 
             /** \brief Additional setup that can only be done once a problem definition is set. */
@@ -358,4 +358,4 @@ namespace ompl
     }  // namespace geometric
 }  // namespace ompl
 
-#endif  // OMPL_GEOMETRIC_PLANNERS_LAZYINFORMEDTREES_btitstar
+#endif  // OMPL_GEOMETRIC_PLANNERS_LAZYINFORMEDTREES_BTITSTAR_
