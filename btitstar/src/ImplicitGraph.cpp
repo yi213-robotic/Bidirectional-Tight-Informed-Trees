@@ -631,7 +631,7 @@ namespace ompl
             bool ImplicitGraph::fallWithinInformedRegion(ompl::base::Cost costToStart, ompl::base::Cost costToGoal) 
             { return objective_->isCostBetterThan(objective_->combineCosts(costToStart,costToGoal),solutionCost_);} 
 
-        }  // namespace aitstar
+        }  // namespace btitstar
 
     }  // namespace geometric
 
